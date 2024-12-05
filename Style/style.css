@@ -1,0 +1,232 @@
+body {
+  background-color: rgb(129, 219, 189);
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+.logo {
+  display: block;
+  text-align: center;
+  margin: 5px auto;
+}
+.logo img {
+  width: 60%;
+  height: 60%;
+}
+.navigacioni {
+  margin: 0 auto;
+  background-color: #0b73ce;
+  width: 70%;
+  height: 55%;
+}
+
+.navigacioniEl {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.navigacioniEl li {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+.navigacioni a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigacioni a:hover {
+  border: 2px solid white;
+  background-color: white;
+}
+
+.naslovna {
+  text-align: center;
+  margin: 0 auto;
+}
+.naslovna h1 {
+  color: white;
+}
+.naslovna h3 {
+  font-weight: lighter;
+}
+
+.naslovna img {
+  border-radius: 15px;
+}
+
+.formBox {
+  width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.formBox img {
+  margin-bottom: 15px;
+}
+
+.formBox p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.formBox label {
+  font-size: 18px;
+}
+
+.formBox .email {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.formBox #search {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.formBox .name {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.formBox .textArea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none;
+}
+
+.formBox .submit {
+  background-color: #14e011;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formBox .submit:hover {
+  background-color: #08a606;
+}
+
+.productKutija {
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid rgb(30, 67, 215);
+  background-color: rgb(213, 229, 230);
+  width: 80%;
+  border-radius: 15px;
+}
+
+.productSlika {
+  margin-top: 20px;
+  width: 70%;
+  height: 70%;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.productSlika:hover {
+  transform: scale(1.2);
+  box-shadow: 0 8px 16px black;
+}
+
+.manjiNaslov {
+  text-align: center;
+  font-size: 24px;
+}
+
+.paragrafi {
+  text-align: justify;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#contacP {
+  text-align: center;
+  font-size: 18px;
+}
+
+.cenaTabela {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-size: 18px;
+  text-align: center;
+}
+.cenaTabela th,
+.cenaTabela td {
+  padding: 6px 10px;
+  border: 1px solid white;
+}
+
+.cenaTabela th {
+  background-color: #0f41d7;
+  color: white;
+  text-transform: uppercase;
+}
+.cenaTabela tr {
+  background-color: #1877c9;
+}
+.footer {
+  text-align: center;
+}
+
+.footer li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+@media (max-width: 1000px) {
+  .navigacioni {
+    width: 60%;
+  }
+  .navigacioniEl {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .productKutija {
+    width: 60%;
+  }
+
+  .formBox {
+    max-width: 550px;
+  }
+  .formBox label {
+    font-size: 16px;
+  }
+  .formBox h3 {
+    font-size: 18px;
+  }
+}
